@@ -4,7 +4,7 @@ class dbConnection
 {
 	function myDB()
 	{
-		$connection = mysqli_connect("localhost", "root", "", "lts");
+		$connection = mysqli_connect("localhost", "root", "", "");
 		if(!$connection)
 		{
 			Die("Failed to connect".mysqli_connect_error());
